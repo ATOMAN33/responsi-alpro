@@ -1,0 +1,103 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int password;
+	int kapasitas;
+	string waktu;
+	int pw;
+	
+	string username;
+	string fasilitas;
+	string matkul;
+	string dosen;
+	string butuh;
+	string user;
+	
+	string lokasi;
+	char mhs;
+	char admin;
+	char pengunjung;
+	
+	username = admin;
+	password = 1994;
+	cout << "|=============================|" << endl;
+	cout << "|Masukkan username : ";
+	cin >> username;
+	cout << "|Masukkan pasword : ";
+	cin >> password;
+	cout << "|=============================|" << endl;
+	
+	
+	if (username , password ){
+		cout << " " << endl;
+		cout << " " << endl;
+		cout << "ADMIN" << endl;
+		cout << " " << endl;
+		cout << " " << endl;
+	}else{
+		cout << " " << endl;
+		cout << " " << endl;
+		cout << "PENGUNJUNG" << endl;
+		cout << " " << endl;
+		cout << " " << endl;
+	}
+	cout << "|==========================================|"<<endl;
+	cout << "|data ruangan kelas"<<endl;
+	cout << "|Kapasitas kelas : ";
+	cin >> kapasitas;
+	cout << "|Lokasi : ";
+	cin >> lokasi;
+	cout << "|Fasilitas : ";
+	cin >> fasilitas;
+	cout << "|==========================================|" << endl;
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "|=================================|" << endl;
+	cout << kapasitas << "," << lokasi << "," << fasilitas << endl;
+	cout << "|=================================|" << endl;
+	cout << " " << endl;
+	if (admin == 1, pengunjung == 0) {
+		cout << "DIUBAH" << endl;
+		cout << " " << endl;
+}else{
+		cout << "TIDAK DIUBAH" << endl;
+		cout << " " << endl;
+	}
+	
+	cout << "|==========================================|"<<endl;
+	cout << "Matakuliah: ";
+	cin >> matkul;
+	cout << "Nama dosen: ";
+	cin >> dosen;
+	cout << "Waktu kuliah: ";
+	cin >> waktu;
+	cout << "Kebutuhan ruang : ";
+	cin >> butuh;
+	cout << "|==========================================|"<<endl;
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "|=================================================================|" << endl;
+	cout << matkul << "," << dosen << "," << waktu << "," << butuh << endl;
+	cout << "|=================================================================|" << endl;
+	
+	
+	cout << "LOGIN SIMERU" << endl;
+	user = mhs;
+
+	pw = 1995;
+	cout<<"masukkkan username: ";
+	cin>>user;
+	cout<<"masukkan password: ";
+	cin>>pw;
+	
+	if (user , pw){
+		cout << "PENGUNJUNG"<<endl;
+	}else {
+		cout<<"ADMIN"<<endl;
+	}
+	cout << "Menampilkan jadwal : " << matkul << "," << dosen << "," << waktu << endl;
+	return 0;
+	
+ //RESPONSI YANG SANGAT MANTAP!!
+}
